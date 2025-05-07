@@ -20,7 +20,6 @@ Nowcasting is vital for disaster response (e.g. flash floods), but rare **extrem
   3. Radar–gauge merging (CM)  
   4. Upscaling to 5 km  
 
-Scripts under `data_preprocessing/` automate these steps.
 
 ## 🔧 Methodology
 
