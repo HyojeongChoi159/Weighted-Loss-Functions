@@ -1,4 +1,4 @@
-# Unveiling the Role of Weighted Loss Functions in Deep Learning-based Nowcasting of Extreme Rainfall Events (IEEE TGRS 2024)
+# Unveiling the Role of Weighted Loss Functions in Deep Learning-based Nowcasting of Extreme Rainfall Events (IEEE TGRS 2025)
 
 This repository contains the code and resources to reproduce the experiments in our paper, which investigates how various **weighted loss functions** can improve the real-time prediction of extreme rainfall events using a ConvLSTM nowcasting model.
 
@@ -10,7 +10,9 @@ Nowcasting is vital for disaster response (e.g. flash floods), but rare **extrem
 
 - **Radar**: KMA CMAX composite (1 km → upscaled to 5 km) over central South Korea (2009–2018)  
 - **Gauge**: 538 AWS stations for quality control and conditional merging  
-- **Preprocessing steps** (see Fig. 2, p. 4):  
+- **Preprocessing steps** :
+  [Fig2](figures/Fig2.png)
+  
   1. Reflectivity → Rainfall (Marshall–Palmer Z–R)  
   2. Outlier correction [doi:10.1109/TGRS.2024.3366400](https://doi.org/10.1109/TGRS.2024.3366400) 
   3. Radar–gauge merging (CM)  
